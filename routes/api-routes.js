@@ -33,14 +33,14 @@ router.post('/api/notes', async (req, res) => {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /////////// create the delete request DELETE /api/notes/:id //////////////////////////////////////////////////////////////////////////////////////
-app.delete('/api/notes/:id', (req, res) => {
-    res.send("DELETE Request Called")
-})
+// app.delete('/api/notes/:id', (req, res) => {
+//     res.send("DELETE Request Called")
+// })
  
-app.listen(PORT, function (err) {
-    if (err) console.log(err);
-    console.log("Server listening on PORT", PORT);
-});
+// app.listen(PORT, function (err) {
+//     if (err) console.log(err);
+//     console.log("Server listening on PORT", PORT);
+// });
 
 // router.delete('/api/notes/:id', (req, res) => {
 //     let

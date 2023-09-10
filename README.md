@@ -46,7 +46,7 @@ UCF Bootcamp Student Support
 node index.js
 ```
 ```bash
-npm test
+npm i -D nodemon
 ```
 
 ## Questions
