@@ -17,7 +17,7 @@ router.get('/api/notes', async (req, res) => {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/////////// create API routes POST /api/notes ////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////// create API routes POST /api/notes + source: https://www.tabnine.com/code/javascript/functions/express/Router/post/////////////////////
 router.post('/api/notes', async (req, res) => {
     const dbJson = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
     const newFeedback = {
@@ -26,6 +26,26 @@ router.post('/api/notes', async (req, res) => {
         id: uuidv4(),
     };
     dbJson.push(newFeedback);
+    fs.writeFileSync("db/db.json", JSON.stringify(dbJson));
+    res.json(dbJson);
+});
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////// create the delete request DELETE /api/notes/:id //////////////////////////////////////////////////////////////////////////////////////
+app.delete('/api/notes/:id', (req, res) => {
+    res.send("DELETE Request Called")
 })
+ 
+app.listen(PORT, function (err) {
+    if (err) console.log(err);
+    console.log("Server listening on PORT", PORT);
+});
+
+// router.delete('/api/notes/:id', (req, res) => {
+//     let
+// })
+
+
 
 module.exports = router;

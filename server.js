@@ -1,8 +1,9 @@
 // Define the installed frameworks for app//
 const express = require('express');
-const api_routes = require('./routes/api-routes')
-const html_routes = require('./routes/html_routess')
+const api_routes = require('./routes/api-routes');
+const html_routes = require('./routes/html_routess');
 const PORT = process.env.PORT || 5500;
+// const PORT = 5500;
 const app = express();
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

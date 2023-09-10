@@ -19,6 +19,8 @@ This challenge is to create an application called Note Taker that can be used to
 
 * [Inquirer.js](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
+* [UUID.v4](https://www.npmjs.com/package/uuid)
+
 * [NodeJS](https://nodejs.org/en/download)
 
 * **touch .gitignore**
@@ -48,7 +50,7 @@ npm test
 ```
 
 ## Questions
-For additional questions, reach out to me at the following below:
+This project was created by Kevin Rice; for additional questions, reach out to me at the following below:
 * Author: [Kevin Rice](https://app.slack.com/client/T056YAJ4MPF/D05D0V54751)
 * GitHub: [DirtyRice901](https://github.com/DirtyRice901/)
 * Email: reatriniti@gmail.com 
