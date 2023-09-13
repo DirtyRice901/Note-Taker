@@ -7,6 +7,7 @@ This challenge is to create an application called Note Taker that can be used to
 
 ## Table of Contents
 * [Installation](#installation)
+* [Functionalities](#functionalities)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
@@ -24,6 +25,16 @@ This challenge is to create an application called Note Taker that can be used to
 * [NodeJS](https://nodejs.org/en/download)
 
 * **touch .gitignore**
+
+## Functionalities
+### A user can do the following things with this Note Taking App:
+* Display Notes
+
+* Add New Notes
+
+* Delete Notes
+
+* Update Notes
 
 
 
