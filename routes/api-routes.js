@@ -16,8 +16,8 @@ router.get('/api/notes', async (req, res) => {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /////////// create API routes POST /api/notes + source: https://www.tabnine.com/code/javascript/functions/express/Router/post/////////////////////
-router.post('/api/notes', async (req, res) => {
-    const dbJson = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
+router.post('/api/notes', (req, res) => {
+    const dbJson = JSON.parse(fs.readFileSync("db/db.json","utf8"));
     const newFeedback = {
         title: req.body.title,
         text: req.body.text,
