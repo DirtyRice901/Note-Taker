@@ -1,12 +1,14 @@
 /////////// Define frameworks////////////////////
+// --------Call the .Router() method as an Express Router--------//
 const router = require('express').Router();
+//--------specify location of the modules to be loaded--------//
 const path = require('path');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // routes * index.html * as a response //
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(__dirname, '../public/index.html'))
 });
 
 // routes * notes.html * as a reponse //

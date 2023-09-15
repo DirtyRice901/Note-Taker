@@ -32,17 +32,15 @@ This challenge is to create an application called Note Taker that can be used to
 
 * Add New Notes
 
-* Delete Notes
-
 * Update Notes
 
 
 
 ## Usage
 ```bash
-node index.js
+node server.js
 ```
-![Note-Taker-Demo](SVG-demo.png)
+![Screenshot](public/assets/image/Note-Taker.png)
 
 [Demo]https://drive.google.com/file/d/1745QR6F13lWo42XuvGqWtj8pwAH3moX3/view
 ## License
