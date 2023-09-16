@@ -24,7 +24,9 @@ This challenge is to create an application called Note Taker that can be used to
 
 * [NodeJS](https://nodejs.org/en/download)
 
-* **touch .gitignore**
+* [Nodemon](https://www.npmjs.com/package/nodemon)
+
+
 
 ## Functionalities
 ### A user can do the following things with this Note Taking App:
@@ -52,10 +54,10 @@ UCF Bootcamp Student Support
 
 ## Tests
 ```bash
-node index.js
+node server.js
 ```
 ```bash
-npm i -D nodemon
+localhost:5500
 ```
 
 ## Questions

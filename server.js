@@ -14,6 +14,8 @@ const PORT = process.env.PORT || 5500;
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Define middleware callback functions using app.use() method in order //
+
+// --------urlencoded to parse incoming requests; based on body parser----------//
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use(express.static("public"));
