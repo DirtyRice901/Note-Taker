@@ -46,7 +46,7 @@ node server.js
 
 [URL Link](https://note-taker-901-a55e94b7827c.herokuapp.com/notes)
 
-[Demo]https://drive.google.com/file/d/1745QR6F13lWo42XuvGqWtj8pwAH3moX3/view
+[Demonstration Video](https://drive.google.com/file/d/1CJW7ZeDCefmGsU6Jr-XKPUq3rY5HMOyC/view)
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-yellow)
 
@@ -60,6 +60,9 @@ node server.js
 ```
 ```bash
 localhost:5500
+```
+```bash
+heroku open
 ```
 
 ## Questions
